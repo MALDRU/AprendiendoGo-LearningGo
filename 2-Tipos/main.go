@@ -43,6 +43,6 @@ func main() {
 	//obtener tamaño en bytes del tipo de una variable
 	//entero de 32 bits en bytes 4 (1 byte => 8 bits)
 	fmt.Println(unsafe.Sizeof(entero32))
-	//entero de 64 bits en bytes 8dDSAF
+	//entero de 64 bits en bytes 8d
 	fmt.Println(unsafe.Sizeof(entero64))
 }
